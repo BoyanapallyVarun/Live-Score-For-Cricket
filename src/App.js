@@ -96,7 +96,7 @@ class App extends React.Component{
             			<Route path='/live' exact render = {() => <LiveMatches AllMatch = {this.state.apiCall} />}/>
             			<Route path='/Upcoming' exact render ={()=> <UpcomingMatches AllMatch = {this.state.apiCall} />} />
                         <Route path='/old' exact render = {()=> <OldMatches AllMatch = {this.state.apiCall} />} />
-                        <Route path='/about' exact render = {()=> 'Under development....    by Satish'} />
+                        <Route path='/about' exact render = {()=> 'Under development...:)'} />
 			<Route component={NotFound} />
 				
               </Switch>
