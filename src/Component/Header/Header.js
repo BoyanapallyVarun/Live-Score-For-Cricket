@@ -75,7 +75,7 @@ class Header extends React.Component{
                         <img src={mainLogo} alt="header logo"/>
                     </div> 
                     <ul className="menu-items" id="menu_items">                         
-                        <li className="Each-header-tab active" id="" onClick={(e)=>this.menuChange('',e)}>Matches</li>
+           
                         <li className="Each-header-tab" id="live" onClick={(e)=>this.menuChange('live',e)}>Live Matches</li>                                                                                         
                         <li className="Each-header-tab" id="upcoming" onClick={(e)=>this.menuChange('upcoming',e)}>Upcoming Matches</li>
                         <li className="Each-header-tab" id="old" onClick={(e)=>this.menuChange('old',e)}>Old Matches</li>
